@@ -1,0 +1,22 @@
+name = "backend-3-roles-project"
+compatibility_date = "2023-12-01"
+
+[vars]
+DATABASE_URL="prisma://accelerate.prisma-data.net/?api_key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcGlfa2V5IjoiNDA4MTM1ZTAtNDg4MS00NGE4LWJlMmUtM2U3ZGE0MWUzZTc1IiwidGVuYW50X2lkIjoiODRjYjQ5MTVhOTVlOTJkZTVmMTRkMDA1NWUzY2M1NzdjMTdhZGQ4OTBmYjc3MDIyMDE5MGYyMmVkYmJiY2JjMyIsImludGVybmFsX3NlY3JldCI6IjQ3NWIwYzA4LTNiNGItNDIxMi1iMjkxLTI4ZjA2NjhmYTdjZCJ9.L5cBbTcSXsHgnHIPdoNyhsI_Ly5Nc5ZySgWWaXvCnyw"
+JWT_SECRET="mysecretpassword"
+
+# [[kv_namespaces]]
+# binding = "MY_KV_NAMESPACE"
+# id = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+
+# [[r2_buckets]]
+# binding = "MY_BUCKET"
+# bucket_name = "my-bucket"
+
+# [[d1_databases]]
+# binding = "DB"
+# database_name = "my-database"
+# database_id = ""
+
+# [ai]
+# binding = "AI"
